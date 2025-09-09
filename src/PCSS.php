@@ -1,1 +1,5 @@
-<?php namespace PCSS;class PCSS {}
+<?php
+
+namespace PCSS;
+
+class PCSS {}
