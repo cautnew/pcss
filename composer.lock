@@ -4,8 +4,47 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "eb7238e79dad31795816f7c0f09979af",
+    "content-hash": "b36353b41d355798766e35e421a12b58",
     "packages": [
+        {
+            "name": "cautnew/typedarr",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cautnew/typedarr.git",
+                "reference": "62765a1df0aef2bb29e32f4d3d4b0d806178def7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cautnew/typedarr/zipball/62765a1df0aef2bb29e32f4d3d4b0d806178def7",
+                "reference": "62765a1df0aef2bb29e32f4d3d4b0d806178def7",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "CN\\Typedarr\\": "src/",
+                    "Cautnew\\Typedarr\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Felipe Martins",
+                    "email": "felipedesmartins@gmail.com"
+                }
+            ],
+            "description": "Create typed arrays in PHP.",
+            "support": {
+                "issues": "https://github.com/cautnew/typedarr/issues",
+                "source": "https://github.com/cautnew/typedarr/tree/main"
+            },
+            "time": "2026-07-05T01:25:21+00:00"
+        },
         {
             "name": "graham-campbell/result-type",
             "version": "1.1.x-dev",
@@ -490,11 +529,12 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "cautnew/typedarr": 20,
         "vlucas/phpdotenv": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {},
     "platform-dev": {},
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.9.0"
 }
