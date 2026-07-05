@@ -1,5 +1,5 @@
 <?php
 
-namespace PCSS;
+namespace CN\PCSS;
 
 class PCSS {}

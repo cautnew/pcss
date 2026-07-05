@@ -25,7 +25,6 @@
             "autoload": {
                 "psr-4": {
                     "CN\\Typedarr\\": "src/",
-                    "Cautnew\\Typedarr\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
